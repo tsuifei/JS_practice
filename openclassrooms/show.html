@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratiquez les méthodes instance_Show</title>
+    <style>
+      body,
+      button {
+        background-color: #111;
+        color: #eee;
+        font-family: 'Roboto Slab', serif;
+      }
+
+      .series-frame {
+        max-width: 600px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        border: 2px solid #eee;
+        margin: 30px;
+        padding: 10px;
+      }
+
+      #refresh {
+        float: right;
+        margin-right: 20px;
+        font-size: 1.2em;
+        font-weight: 200;
+        padding: 10px;
+      }
+
+      #refresh:hover {
+        background-color: #000090;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto+Slab"
+    rel="stylesheet"
+  />
+  <body>
+    <button id="refresh">Check ratings</button>
+    <script src="./show.js"></script>
+  </body>
+</html>
