@@ -23,7 +23,7 @@ console.log(isPrime(1000000)); // returns false
 // 第一層for把100每一個數字都跑一遍
 
 //第二層for，判斷是否是質數，用每一個數來除以1-100，看看能被整除幾次，如果只有兩次，就列印。
-//用 count 來記錄被整除的次數，每次 count 都要歸零，好讓他下一個迴圈可歸零 qu/6z;
+//用 count 來記錄被整除的次數，每次 count 都要歸零，好讓他下一個迴圈可歸零;
 function primeNumberFilter(num) {
   let count = 0;
   let result = '';
@@ -51,7 +51,7 @@ function primeNumberFilter(num) {
 // 找出其種規律得到，兩個數最大範圍是 10 * 10
 // 但要等同需要兩邊的數一邊增加、一邊減少，不會兩邊都一起增加，這就是規律。
 
-// 6.用平方數做第六題，使用 Math.sqrt()給100可得到10。(52:40)
+// 6.用平方數做第六題，使用 Math.sqrt()給100可得到10。
 
 function primeNumberFilter2(num) {
   let count = 0;
